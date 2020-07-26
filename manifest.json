@@ -1,0 +1,15 @@
+{
+    "name": "Facebook Most Recent",
+    "version": "1.0",
+    "description": "Switch Facebook's homepage from 'Top Stories' to 'Most Recent'",
+    "author": "O. Inha",
+    "permissions": ["tabs", "activeTab", "*://*.facebook.com/*"],
+    "content_scripts": [
+        {
+          "matches": ["*://*.facebook.com/*"],
+          "js": ["jquery-3.5.1.min.js", "content_script.js"]
+        }
+    ],
+    "browser_action": {},
+    "manifest_version": 2
+}
