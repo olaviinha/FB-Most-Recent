@@ -3,7 +3,7 @@ Chrome Extension that does nothing but permanently switches Facebook's News Feed
 
 ## Howto
 
-1. Download this repository as ZIP (Upper right `Code` button -> Download as ZIP)
+1. Download this repository as ZIP (Upper right `Code` button -> Download ZIP)
 2. Extract ZIP
 3. In Chrome, go to address `chrome://extensions`
 4. Enable _Developer mode_ from upper right corner.
