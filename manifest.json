@@ -3,7 +3,7 @@
     "version": "1.0",
     "description": "Switch Facebook's homepage from 'Top Stories' to 'Most Recent'",
     "author": "O. Inha",
-    "permissions": ["tabs", "activeTab", "*://*.facebook.com/*"],
+    "permissions": ["activeTab", "*://*.facebook.com/*"],
     "content_scripts": [
         {
           "matches": ["*://*.facebook.com/*"],
